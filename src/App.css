@@ -1,0 +1,64 @@
+body {
+  background-image: url("./Images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "JetBrains Mono", monospace;
+}
+.nav-top {
+  z-index: -1;
+  display: block;
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  color: rgb(7, 247, 115);
+  background-color: #474747;
+  border: none;
+  width: 500px;
+  border-radius: 10px;
+}
+
+.App {
+  background-color: #474747;
+  min-height: 500px;
+  width: 500px;
+  margin: 20px auto;
+  border-radius: 10px;
+  z-index: 9;
+}
+header {
+  z-index: 99;
+  align-items: center;
+}
+
+#to-do-form input {
+  background-color: #faf8ff;
+  width: 300px;
+  height: 50px;
+  border: 0;
+  padding: 0 20px;
+  margin: 20px 25px;
+  font-size: 18px;
+  border-radius: 10px;
+  color: #7072fd;
+  font-family: "JetBrains Mono", monospace;
+  z-index: 99;
+}
+#to-do-form input ::placeholder {
+  color: #e3e0f3;
+  z-index: 99;
+}
+#to-do-form input:form {
+  outline: none;
+}
+#to-do-form button {
+  height: 50px;
+  width: 80px;
+  border-radius: 10px;
+  border: none;
+  background-color: #8083ff;
+  cursor: pointer;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 18px;
+}
